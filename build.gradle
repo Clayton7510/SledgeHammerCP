@@ -1,0 +1,28 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.4'
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+group = properties['project.group']
+version = properties['project.version']
+
+sourceCompatibility = properties['project.compatibility']
+targetCompatibility = properties['project.compatibility']
+
+dependencies {
+    compile("org.apache.commons:commons-pool2:2.4.2")
+    compile("org.slf4j:slf4j-api:1.7.21")
+
+    testCompile("org.codehaus.groovy:groovy-all:2.4.8")
+    testCompile("org.spockframework:spock-core:1.0-groovy-2.4")
+
+    //for mocking
+    testRuntime("cglib:cglib-nodep:3.1")
+    testRuntime("org.objenesis:objenesis:2.1")
+}
