@@ -1,5 +1,8 @@
 # SledgeHammerCP
-Sledge Hammer • Connection pooling that puts the developer in control 
+
+**Connection pooling that puts the developer in control**
+
+------------------------
 
 ### Why SledgeHammerCP?
 Admittedly, there are a lot of connection pooling options out there: c3p0, Hikari, DBCP, etc. But have you ever had a driver not properly validate connections? Or had a connection leak with no insight into the root cause? Or had a connection pool not enforce its maximum connection limit? These are the problems that SledgeHammerCP solves.
