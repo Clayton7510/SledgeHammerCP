@@ -1,4 +1,4 @@
-package com.bfb.data.shammer;
+package com.deliveredtechnologies.shammer;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 

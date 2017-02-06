@@ -1,6 +1,5 @@
-package com.bfb.data.shammer.pooling;
+package com.deliveredtechnologies.shammer.pooling;
 
-import org.apache.commons.pool2.impl.GenericObjectPool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

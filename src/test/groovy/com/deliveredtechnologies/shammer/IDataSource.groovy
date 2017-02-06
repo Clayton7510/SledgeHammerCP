@@ -1,4 +1,4 @@
-package com.bfb.data.shammer
+package com.deliveredtechnologies.shammer
 
 import javax.sql.DataSource
 

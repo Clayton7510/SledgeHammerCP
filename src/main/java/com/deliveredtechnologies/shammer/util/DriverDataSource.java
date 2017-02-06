@@ -1,4 +1,4 @@
-package com.bfb.data.shammer.util;
+package com.deliveredtechnologies.shammer.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

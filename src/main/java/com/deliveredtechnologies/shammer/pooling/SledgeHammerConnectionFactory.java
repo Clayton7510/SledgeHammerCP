@@ -1,9 +1,9 @@
-package com.bfb.data.shammer.pooling;
+package com.deliveredtechnologies.shammer.pooling;
 
-import com.bfb.data.shammer.SledgeHammerConfig;
-import com.bfb.data.shammer.util.DriverDataSource;
-import com.bfb.data.shammer.util.DataSourceUtil;
-import com.bfb.data.shammer.util.PropertyUtil;
+import com.deliveredtechnologies.shammer.SledgeHammerConfig;
+import com.deliveredtechnologies.shammer.util.DriverDataSource;
+import com.deliveredtechnologies.shammer.util.DataSourceUtil;
+import com.deliveredtechnologies.shammer.util.PropertyUtil;
 import org.apache.commons.pool2.PooledObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.bfb.data.shammer.pooling;
+package com.deliveredtechnologies.shammer.pooling;
 
 import org.apache.commons.pool2.PooledObject;
 import org.apache.commons.pool2.PooledObjectState;

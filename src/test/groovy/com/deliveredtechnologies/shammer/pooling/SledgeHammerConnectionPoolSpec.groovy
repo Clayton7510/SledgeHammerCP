@@ -1,6 +1,6 @@
-package com.bfb.data.shammer.pooling
+package com.deliveredtechnologies.shammer.pooling
 
-import com.bfb.data.shammer.SledgeHammerConfig
+import com.deliveredtechnologies.shammer.SledgeHammerConfig
 import org.apache.commons.pool2.PooledObject
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig
 import spock.lang.Specification

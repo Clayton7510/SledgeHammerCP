@@ -1,10 +1,7 @@
-package com.bfb.data.shammer.pooling;
+package com.deliveredtechnologies.shammer.pooling;
 
-import com.bfb.data.shammer.SledgeHammerConfig;
+import com.deliveredtechnologies.shammer.SledgeHammerConfig;
 import org.apache.commons.pool2.PooledObjectFactory;
-import org.apache.commons.pool2.impl.GenericObjectPool;
-
-import java.sql.Connection;
 
 /**
  * Created by clong on 2/4/17.

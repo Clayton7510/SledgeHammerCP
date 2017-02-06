@@ -1,4 +1,4 @@
-package com.bfb.data.shammer.util;
+package com.deliveredtechnologies.shammer.util;
 
 import java.lang.reflect.Constructor;
 

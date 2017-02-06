@@ -1,8 +1,8 @@
-package com.bfb.data.shammer;
+package com.deliveredtechnologies.shammer;
 
-import com.bfb.data.shammer.pooling.SledgeHammerConnectionFactory;
-import com.bfb.data.shammer.pooling.SledgeHammerConnectionPool;
-import com.bfb.data.shammer.pooling.SledgeHammerPool;
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerConnectionFactory;
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerPool;
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerConnectionPool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

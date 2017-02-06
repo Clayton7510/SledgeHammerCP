@@ -1,15 +1,13 @@
-package com.bfb.data.shammer
+package com.deliveredtechnologies.shammer
 
-import com.bfb.data.shammer.pooling.SledgeHammerConnection
-import com.bfb.data.shammer.pooling.SledgeHammerConnectionFactory
-import com.bfb.data.shammer.pooling.SledgeHammerConnectionPool
-import com.bfb.data.shammer.pooling.SledgeHammerPool
-import com.bfb.data.shammer.pooling.SledgeHammerPoolAwareFactory
-import com.bfb.data.shammer.pooling.SledgeHammerPooledConnection
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerConnectionPool
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerConnection
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerConnectionFactory
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerPool
+import com.deliveredtechnologies.shammer.pooling.SledgeHammerPooledConnection
 import spock.lang.Specification
 
 import javax.sql.DataSource
-import javax.xml.crypto.Data
 import java.sql.Connection
 import java.sql.SQLException
 
