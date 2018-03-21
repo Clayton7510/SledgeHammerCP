@@ -1,6 +1,9 @@
+![Sledge Hammer](SledgeHammer.jpg)
+
 # SledgeHammerCP
 
 **Connection pooling that puts the developer in control**
+
 
 ------------------------
 
